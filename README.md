@@ -1,6 +1,6 @@
 # Terraform module for GCP Domain Verification
 
-Simple module that'll bring up an nginx instance to verify your domain in a GCP Project.
+While it's usually easiest to use the TXT or CNAME verification method, that's not always an option. This is a simple module that'll bring up an nginx instance to verify your domain in a GCP Project the hard way.
 
 <!-- toc -->
 

@@ -7,7 +7,7 @@ variable "dns_zone" {}
 variable "dns_zone_name" {}
 variable "verification_file" {}
 
-variable "labels" { default = [] }
+variable "labels" { default = {} }
 
 resource "google_compute_instance" "default" {
   name = "domain-verification"
